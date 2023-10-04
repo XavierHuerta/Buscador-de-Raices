@@ -3,8 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/BuscaRaices/Archivos de encabezado"
+                "${workspaceFolder}/**"
+                
             ],
             "defines": [
                 "_DEBUG",

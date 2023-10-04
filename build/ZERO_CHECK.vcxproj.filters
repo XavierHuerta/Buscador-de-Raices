@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kirby\Documents\Git_Proyects\Buscador-de-Raices\build\CMakeFiles\a57ceebdabce2a7f886c795fc3352a9f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C33ACA40-5AB8-39E2-AAF6-26280238DA6C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
