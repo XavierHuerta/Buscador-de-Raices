@@ -1,0 +1,3 @@
+C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/BuscaRaices.dir
+C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/ZERO_CHECK.dir

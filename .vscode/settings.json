@@ -1,8 +1,11 @@
 {
     "files.associations": {
         "cmath": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "random": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp"
     },
-    "cmake.sourceDirectory": "C:/Users/Kirby/OneDrive - Benemérita Universidad Autónoma de Puebla/Programación/C++/Buscador-de-Raices/BuscaRaices",
+    "cmake.sourceDirectory": "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/BuscaRaices",
     "cmake.configureOnOpen": false
 }

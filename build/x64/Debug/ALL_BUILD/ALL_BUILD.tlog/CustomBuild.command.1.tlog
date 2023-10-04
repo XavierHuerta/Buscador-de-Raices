@@ -1,0 +1,10 @@
+^C:\USERS\KIRBY\DOCUMENTS\GIT_PROYECTS\BUSCADOR-DE-RAICES\BUSCARAICES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/BuscaRaices -BC:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build --check-stamp-file C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

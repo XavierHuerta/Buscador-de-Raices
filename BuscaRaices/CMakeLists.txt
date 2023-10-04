@@ -1,5 +1,11 @@
-cmake_minimum_required(Version 2.0.0)
+cmake_minimum_required(VERSION 3.0)
 
-project(BuscadorRaices)
+project(BuscaRaices)
 
-add_executable(BuscadorRaices main.cpp)
+
+# Agrega los archivos de origen (.cpp) a tu proyecto.
+add_executable(BuscaRaices
+    main.cpp
+)
+
+

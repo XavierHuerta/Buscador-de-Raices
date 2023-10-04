@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Kirby\Documents\Git_Proyects\Buscador-de-Raices\BuscaRaices\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Kirby\Documents\Git_Proyects\Buscador-de-Raices\BuscaRaices\Ecuacion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kirby\Documents\Git_Proyects\Buscador-de-Raices\BuscaRaices\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9DED8AC0-D9D2-3551-BC01-9CAA49FAA752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1767BF90-0AA8-36D2-AEA5-5FF8E1E1A3E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
