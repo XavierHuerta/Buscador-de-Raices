@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
         perror("No igreso correctamente los argumentos");
     }
     else{
-        if(stof(argv[1]) > 0){//ecuacion de 3er grado
+        if(stof(argv[1]) != 0){//ecuacion de 3er grado
             cout << "Tenemos una Ecuacion de 3er grado" << endl;
             Ecuacion e(stof(argv[1]), stof(argv[2]), stof(argv[3]), stof(argv[4]));
             e.showRoots();
