@@ -28,10 +28,13 @@ int main(int argc, char const *argv[])
             Ecuacion e(stof(argv[2]), stof(argv[3]), stof(argv[4]));
             e.showRoots();
 
-        }else{//ecuacion de primer grado
+        }else if (stof(argv[3]) != 0){//ecuacion de primer grado
             cout << "Tenemos una Ecuacion de 1er grado" << endl;
             Ecuacion e(stof(argv[3]), stof(argv[4]));
             e.showRoots();
+        }
+        else{
+            perror("no se introdujo nonguna ecuacion");
         }
     }
 
