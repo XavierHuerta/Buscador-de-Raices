@@ -7,7 +7,9 @@
         "algorithm": "cpp",
         "array": "cpp",
         "initializer_list": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "deque": "cpp",
+        "string": "cpp"
     },
     "cmake.sourceDirectory": "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/BuscaRaices",
     "cmake.configureOnOpen": false

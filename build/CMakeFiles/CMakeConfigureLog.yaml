@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Compilación iniciada a las 03/10/2023 05:59:01 p. m..
+      Compilación iniciada a las 04/10/2023 10:09:41 p. m..
       
       Proyecto "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -51,7 +51,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:04.16
+      Tiempo transcurrido 00:00:02.28
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -77,7 +77,7 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Compilación iniciada a las 03/10/2023 05:59:06 p. m..
+      Compilación iniciada a las 04/10/2023 10:09:44 p. m..
       
       Proyecto "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -104,7 +104,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:00.91
+      Tiempo transcurrido 00:00:00.73
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,46 +123,46 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-e1qn22"
-      binary: "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-e1qn22"
+      source: "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-fuibt7"
+      binary: "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-fuibt7"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-e1qn22'
+        Change Dir: 'C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-fuibt7'
         
-        Run Build Command(s): "E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2bbd5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ca099.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        Compilación iniciada a las 03/10/2023 05:59:07 p. m..
+        Compilación iniciada a las 04/10/2023 10:09:45 p. m..
         
-        Proyecto "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1qn22\\cmTC_2bbd5.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fuibt7\\cmTC_ca099.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_2bbd5.dir\\Debug\\".
-          Creando directorio "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1qn22\\Debug\\".
-          Creando directorio "cmTC_2bbd5.dir\\Debug\\cmTC_2bbd5.tlog\\".
+          Creando directorio "cmTC_ca099.dir\\Debug\\".
+          Creando directorio "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fuibt7\\Debug\\".
+          Creando directorio "cmTC_ca099.dir\\Debug\\cmTC_ca099.tlog\\".
         InitializeBuildStatus:
-          Se creará "cmTC_2bbd5.dir\\Debug\\cmTC_2bbd5.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Se creará "cmTC_ca099.dir\\Debug\\cmTC_ca099.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
         ClCompile:
-          E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bbd5.dir\\Debug\\\\" /Fd"cmTC_2bbd5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca099.dir\\Debug\\\\" /Fd"cmTC_ca099.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
           Compilador de optimización de C/C++ de Microsoft (R) versión 19.36.32537 para x64
           CMakeCCompilerABI.c
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bbd5.dir\\Debug\\\\" /Fd"cmTC_2bbd5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca099.dir\\Debug\\\\" /Fd"cmTC_ca099.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Link:
-          E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1qn22\\Debug\\cmTC_2bbd5.exe" /INCREMENTAL /ILK:"cmTC_2bbd5.dir\\Debug\\cmTC_2bbd5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-e1qn22/Debug/cmTC_2bbd5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-e1qn22/Debug/cmTC_2bbd5.lib" /MACHINE:X64  /machine:x64 cmTC_2bbd5.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_2bbd5.vcxproj -> C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1qn22\\Debug\\cmTC_2bbd5.exe
+          E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fuibt7\\Debug\\cmTC_ca099.exe" /INCREMENTAL /ILK:"cmTC_ca099.dir\\Debug\\cmTC_ca099.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-fuibt7/Debug/cmTC_ca099.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-fuibt7/Debug/cmTC_ca099.lib" /MACHINE:X64  /machine:x64 cmTC_ca099.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ca099.vcxproj -> C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fuibt7\\Debug\\cmTC_ca099.exe
         FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_2bbd5.dir\\Debug\\cmTC_2bbd5.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_2bbd5.dir\\Debug\\cmTC_2bbd5.tlog\\cmTC_2bbd5.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1qn22\\cmTC_2bbd5.vcxproj" (destinos predeterminados).
+          Se eliminará el archivo "cmTC_ca099.dir\\Debug\\cmTC_ca099.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_ca099.dir\\Debug\\cmTC_ca099.tlog\\cmTC_ca099.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fuibt7\\cmTC_ca099.vcxproj" (destinos predeterminados).
         
         Compilación correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:01.02
+        Tiempo transcurrido 00:00:00.95
         
       exitCode: 0
   -
@@ -174,46 +174,46 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-grkvvy"
-      binary: "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-grkvvy"
+      source: "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-icvcz6"
+      binary: "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-icvcz6"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-grkvvy'
+        Change Dir: 'C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-icvcz6'
         
-        Run Build Command(s): "E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fa8b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c0480.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        Compilación iniciada a las 03/10/2023 05:59:08 p. m..
+        Compilación iniciada a las 04/10/2023 10:09:46 p. m..
         
-        Proyecto "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grkvvy\\cmTC_fa8b1.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icvcz6\\cmTC_c0480.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_fa8b1.dir\\Debug\\".
-          Creando directorio "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grkvvy\\Debug\\".
-          Creando directorio "cmTC_fa8b1.dir\\Debug\\cmTC_fa8b1.tlog\\".
+          Creando directorio "cmTC_c0480.dir\\Debug\\".
+          Creando directorio "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icvcz6\\Debug\\".
+          Creando directorio "cmTC_c0480.dir\\Debug\\cmTC_c0480.tlog\\".
         InitializeBuildStatus:
-          Se creará "cmTC_fa8b1.dir\\Debug\\cmTC_fa8b1.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Se creará "cmTC_c0480.dir\\Debug\\cmTC_c0480.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
         ClCompile:
-          E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fa8b1.dir\\Debug\\\\" /Fd"cmTC_fa8b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c0480.dir\\Debug\\\\" /Fd"cmTC_c0480.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilador de optimización de C/C++ de Microsoft (R) versión 19.36.32537 para x64
           CMakeCXXCompilerABI.cpp
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fa8b1.dir\\Debug\\\\" /Fd"cmTC_fa8b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c0480.dir\\Debug\\\\" /Fd"cmTC_c0480.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grkvvy\\Debug\\cmTC_fa8b1.exe" /INCREMENTAL /ILK:"cmTC_fa8b1.dir\\Debug\\cmTC_fa8b1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-grkvvy/Debug/cmTC_fa8b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-grkvvy/Debug/cmTC_fa8b1.lib" /MACHINE:X64  /machine:x64 cmTC_fa8b1.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_fa8b1.vcxproj -> C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grkvvy\\Debug\\cmTC_fa8b1.exe
+          E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icvcz6\\Debug\\cmTC_c0480.exe" /INCREMENTAL /ILK:"cmTC_c0480.dir\\Debug\\cmTC_c0480.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-icvcz6/Debug/cmTC_c0480.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/build/CMakeFiles/CMakeScratch/TryCompile-icvcz6/Debug/cmTC_c0480.lib" /MACHINE:X64  /machine:x64 cmTC_c0480.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c0480.vcxproj -> C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icvcz6\\Debug\\cmTC_c0480.exe
         FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_fa8b1.dir\\Debug\\cmTC_fa8b1.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_fa8b1.dir\\Debug\\cmTC_fa8b1.tlog\\cmTC_fa8b1.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grkvvy\\cmTC_fa8b1.vcxproj" (destinos predeterminados).
+          Se eliminará el archivo "cmTC_c0480.dir\\Debug\\cmTC_c0480.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_c0480.dir\\Debug\\cmTC_c0480.tlog\\cmTC_c0480.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\Kirby\\Documents\\Git_Proyects\\Buscador-de-Raices\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icvcz6\\cmTC_c0480.vcxproj" (destinos predeterminados).
         
         Compilación correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:00.90
+        Tiempo transcurrido 00:00:00.73
         
       exitCode: 0
 ...

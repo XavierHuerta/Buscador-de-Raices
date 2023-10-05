@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\Kirby\Documents\Git_Proyects\Buscador-de-Raices\BuscaRaices\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Kirby\Documents\Git_Proyects\Buscador-de-Raices\BuscaRaices\Ecuacion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Kirby\Documents\Git_Proyects\Buscador-de-Raices\BuscaRaices\CMakeLists.txt" />
