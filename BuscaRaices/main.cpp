@@ -2,6 +2,7 @@
 #include <string>
 #include <math.h>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -12,7 +13,7 @@ vector <float> raices;
 vector <float> GenDivsD(float d){
     vector <float> divsD;
 
-    for (int i = 1; i < d; i++)
+    for (int i = 1; i <= d; i++)
     {
         if(((int) d  % i) == 0){
             divsD.push_back((float)i);
@@ -26,7 +27,8 @@ vector <float> GenDivsD(float d){
 //Genera un vector con los divisores exactos de a
 vector <float> GenDivsA(float a){
     vector <float> divsA;
-    for (int i = 1; i < a; i++)
+
+    for (int i = 1; i <= a; i++)
     {
         if(((int) a  % i) == 0){
             divsA.push_back((float)i);
@@ -40,41 +42,60 @@ vector <float> GenDivsA(float a){
 //Genera un vector son las posibles raices solucion
 vector <float> GenPosRootSolves(float a, float d){
     vector <float> posRootSolvesV;
-    vector <float> dA = GenDivsA(a);
-    vector <float> dD = GenDivsD(d);
+    vector <float> dA;
+    vector <float> dD;
 
-    for (int vD = 0; vD < dD.size(); vD++)
+    dA = GenDivsA(a);
+    dD = GenDivsD(d);
+
+    for (int vA = 0; vA < dA.size(); vA++)
     {
-        for (int vA = 0; vA < dA.size(); vA++)
+        for (int vD = 0; vD < dD.size(); vD++)
         {
-            posRootSolvesV.push_back(dD.at(vD) / dA.at(vA));
-            posRootSolvesV.push_back( -(dD.at(vD) / dA.at(vA)));
+            float aux = dD.at(vD) / dA.at(vA);
+            if(posRootSolvesV.empty()){
+                posRootSolvesV.push_back(aux);
+                posRootSolvesV.push_back(-aux);
+            }
+            else{
+                auto it = find(posRootSolvesV.begin(), posRootSolvesV.end(), aux);
+                if(it == posRootSolvesV.end()){
+                    posRootSolvesV.push_back(aux);
+                }
+                auto it2 = find(posRootSolvesV.begin(), posRootSolvesV.end(), -aux);
+                if(it2 == posRootSolvesV.end()){
+                    posRootSolvesV.push_back(-aux);
+                }
+            }
         }
     }
     
     return posRootSolvesV;
 }
 //ejecuta una division sintetica hasta encontrar las RootSolves
-float divSintetic(float a, float b, float c, float d){
-    float aux1, aux2, aux3;
+vector <float> divSintetic(float a, float b, float c, float d){
+    vector <float> rS;
+    float aux1, aux2, x;
     vector <float> posRootSolve = GenPosRootSolves(a, d);
-    float sumas [4];
 
-    cout << posRootSolve.size();
 
     for (int i = 0; i < posRootSolve.size(); i++)
     {
-        cout << " - " << posRootSolve.at(i);
-    }
-
-    // for (int i = 0; i < posRootSolve.size(); i++)
-    // {
+        x = posRootSolve.at(i);
         
-    // }
+        aux1 = a * x;
+        aux2 = b + aux1;
+        aux1 = aux2 * x;
+        aux2 = c + aux1;
+        aux1 = aux2 * x;
+        aux2 = aux1 + d;
+        if(aux2 == 0){
+            rS.push_back(x);
+        }
+    }
     
-    return 1;
+    return rS;
 }
-
 
 //Aplicamos regla de Ruffini
 vector <float> tercer_G(char const *argv[]){
@@ -83,13 +104,10 @@ vector <float> tercer_G(char const *argv[]){
     float c = stof(argv[3]);
     float d = stof(argv[4]);
 
-    int x = divSintetic(a, b, c, d);
+    raices = divSintetic(a, b, c, d);
 
     return raices;
 }
-
-
-
 
 //Aplicamos formula general
 vector <float> segundo_G(char const *argv[]){
@@ -136,11 +154,11 @@ int main(int argc, char const *argv[])
         perror("No igreso correctamente los argumentos");
     }
     else{
-        if(*argv[1] > 0){//ecuacion de 3er grado
+        if(stof(argv[1]) > 0){//ecuacion de 3er grado
             cout << "Tenemos una Ecuacion de 3er grado" << endl;
-            tercer_G(argv);
-        }else 
-        if(*argv[2] != 0){//ecuacion de 2do grado
+            mostrarRaices(tercer_G(argv));
+        }
+        else if(stof(argv[2]) != 0){//ecuacion de 2do grado
 
             cout << "Tenemos una Ecuacion de 2do grado" << endl;
             mostrarRaices(segundo_G(argv));

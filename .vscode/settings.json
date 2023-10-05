@@ -4,7 +4,10 @@
         "vector": "cpp",
         "random": "cpp",
         "iostream": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
     },
     "cmake.sourceDirectory": "C:/Users/Kirby/Documents/Git_Proyects/Buscador-de-Raices/BuscaRaices",
     "cmake.configureOnOpen": false
